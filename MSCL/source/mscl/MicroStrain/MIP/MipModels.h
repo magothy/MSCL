@@ -502,7 +502,7 @@ namespace mscl
         //
         //  Parameters:
         //    baseModels - the [uint32, <MipModel>&] map where the uint32 key is an integer version of the custom  model and the MipModel entry is the base
-        static void setBaseModelMap(std::map<uint32, const MipModel&> baseModels) { BASE_MODEL_MAP = baseModels; }
+        //static void setBaseModelMap(std::map<uint32, const MipModel&> baseModels) { BASE_MODEL_MAP = baseModels; }
 
         //Function: baseModelLookup (not documented, C++ only)
         //  Finds the base model for the specified model as defined by the BASE_MODEL_MAP. The specified model is returned without changes if no base model is found.
